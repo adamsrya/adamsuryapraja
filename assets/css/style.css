@@ -1023,9 +1023,19 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact h2 {
+  font-size: 36px; /* Ukuran font untuk heading */
+  font-weight: bold;
+  text-align: center;
+  color: #45505b;
+  margin-bottom: 10px; /* Mengurangi jarak heading dengan elemen di bawahnya */
+}
+
 .contact .info {
   width: 100%;
   background: #fff;
+  padding-top: 10px; /* Atur padding atas jika ada */
+  margin-top: 0; /* Pastikan margin atas tidak menambah jarak */
 }
 
 .contact .info i {
@@ -1058,8 +1068,9 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
+.contact .info .phone,
+.contact .info .address {
+  margin-top: 20px; /* Jarak antar elemen info */
 }
 
 .contact .info .email:hover i,
